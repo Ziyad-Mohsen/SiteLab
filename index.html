@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Css files -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>SiteLab</title>
+  </head>
+  <body>
+    <!-- Scroll To Top Button -->
+    <button class="scroll-top-btn show" onclick="handleScrollTop()">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- // Scroll To Top Button // -->
+    <!-- Start Navbar -->
+    <nav>
+      <div class="container">
+        <div class="nav-container">
+          <div class="logo-container">
+            <a href="#home" class="logo"> SiteLab </a>
+          </div>
+          <div class="nav-right">
+            <ul class="nav-links">
+              <li>
+                <a data-section="home" href="#home" class="active">Home</a>
+              </li>
+              <li>
+                <a data-section="about" href="#about">About</a>
+              </li>
+              <li>
+                <a data-section="services" href="#services">Services</a>
+              </li>
+              <li>
+                <a data-section="gallery" href="#gallery">Gallery</a>
+              </li>
+              <li>
+                <a data-section="faqs" href="#faqs">FAQs</a>
+              </li>
+              <li>
+                <a data-section="team" href="#team">Team</a>
+              </li>
+              <li>
+                <a data-section="contact" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <button class="get-started-btn">
+              <a href="#services">Get Started</a>
+            </button>
+            <button class="menu-toggler" onclick="handleDropMenuToggle()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div id="hero" class="section">
+          <div class="info animation fade-in-top">
+            <h1>Elevate Your Brand with Custom Web Solutions</h1>
+            <p>We are team of talented designers making websites for your</p>
+            <div class="btns">
+              <button class="get-started-btn">
+                <a href="#services"> Get Started </a>
+              </button>
+              <button class="watch-btn">
+                <i class="fa-regular fa-circle-play"></i>
+                Watch Video
+              </button>
+            </div>
+          </div>
+          <div class="img-container animation fade-in-zoom">
+            <img src="./imgs/hero.svg" alt="Hero Image" class="hero" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+    <!-- Start About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-container">
+          <div class="img-container animation fade-in-top">
+            <img src="./imgs/about.svg" alt="Hero Image" class="sub-hero" />
+          </div>
+          <div class="text animation fade-in-top">
+            <h2>
+              At Creative Web Solutions, we provide innovative website design
+              and development services
+            </h2>
+            <p>
+              Our team of experts creates websites that not only look stunning
+              but also deliver an outstanding user experience.
+            </p>
+            <div class="features">
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa-solid fa-network-wired"></i>
+                </div>
+                <div class="feature-text">
+                  <h3>Custom Design Solutions</h3>
+                  <p>
+                    We create custom, responsive websites tailored to your
+                    brand, offering a unique user experience
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="features">
+              <div class="feature">
+                <div class="icon">
+                  <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div class="feature-text">
+                  <h3>Innovative Web Development</h3>
+                  <p>
+                    Our team delivers cutting-edge, responsive websites that are
+                    built for performance and growth. Elevate your online
+                    presence with a site designed to engage and convert users.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+    <!-- Start Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header animation fade-in-top">
+          <h2>Services</h2>
+          <p>
+            Comprehensive web solutions: design, e-commerce, SEO, and ongoing
+            support.
+          </p>
+        </div>
+        <div class="services-container">
+          <div class="service animation fade-in-top">
+            <i class="fa-solid fa-bolt"></i>
+            <h5>Responsive Web Design</h5>
+            <p>
+              We design mobile-friendly, responsive websites that provide an
+              optimal user experience across all devices, from desktops to
+              smartphones. Our designs focus on both aesthetics and
+              functionality, ensuring your site looks great and performs
+              seamlessly
+            </p>
+          </div>
+          <div class="service animation fade-in-top">
+            <i class="fa-solid fa-circle-nodes"></i>
+            <h5>E-Commerce Solutions</h5>
+            <p>
+              We build secure, scalable e-commerce platforms tailored to your
+              business needs. From product management to secure payment gateways
+              and a smooth checkout process, we ensure your online store is easy
+              to manage and provides a great user experience.
+            </p>
+          </div>
+          <div class="service animation fade-in-top">
+            <i class="fa-solid fa-calendar-days"></i>
+            <h5>SEO Optimization</h5>
+            <p>
+              Our SEO services boost your website's visibility on search
+              engines. Through keyword optimization, content strategy, and
+              technical SEO improvements, we help your site rank higher and
+              attract more organic traffic.
+            </p>
+          </div>
+          <div class="service animation fade-in-top">
+            <i class="fa-solid fa-tower-cell"></i>
+            <h5>Website Maintenance & Support</h5>
+            <p>
+              We provide ongoing website maintenance, including updates,
+              security patches, and performance monitoring. Our team ensures
+              your site stays up-to-date, secure, and running smoothly so you
+              can focus on growing your business.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- Start Gallery Section -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-header animation fade-in-top">
+          <h2>Gallery</h2>
+          <p>
+            Discover our portfolio of creative web designs and development
+            projects. Explore how we bring ideas to life!
+          </p>
+        </div>
+        <!-- <div class="gallery">
+          <ul class="gallery-sections animation fade-in-top">
+            <li>
+              <button class="active" data-category="all">All</button>
+            </li>
+            <li>
+              <button data-category="app">App</button>
+            </li>
+            <li>
+              <button data-category="product">Products</button>
+            </li>
+            <li>
+              <button data-category="branding">Branding</button>
+            </li>
+            <li>
+              <button data-category="books">Books</button>
+            </li>
+          </ul>
+          <div class="gallery-photos">
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="branding"
+            >
+              <div class="img-container">
+                <img src="./imgs/branding-2.jpg" alt="Branding 2" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="gallery-photo animation fade-in-left" data-tag="app">
+              <div class="img-container">
+                <img src="./imgs/app-3.jpg" alt="App 3" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="gallery-photo animation fade-in-left" data-tag="books">
+              <div class="img-container">
+                <img src="./imgs/books-1.jpg" alt="Books 1" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>Books 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="product"
+            >
+              <div class="img-container">
+                <img src="./imgs/product-2.jpg" alt="Product 2" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>Product 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="gallery-photo animation fade-in-left" data-tag="app">
+              <div class="img-container">
+                <img src="./imgs/app-1.jpg" alt="App 1" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>App 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="branding"
+            >
+              <div class="img-container">
+                <img src="./imgs/branding-1.jpg" alt="Branding 1" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="gallery-photo animation fade-in-left" data-tag="books">
+              <div class="img-container">
+                <img src="./imgs/books-3.jpg" alt="Books 3" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>Books 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="product"
+            >
+              <div class="img-container">
+                <img src="./imgs/product-1.jpg" alt="Product 1" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>Product 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="branding"
+            >
+              <div class="img-container">
+                <img src="./imgs/branding-3.jpg" alt="Branding 3" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="gallery-photo animation fade-in-left" data-tag="app">
+              <div class="img-container">
+                <img src="./imgs/app-2.jpg" alt="App 2" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>App 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="product"
+            >
+              <div class="img-container">
+                <img src="./imgs/product-3.jpg" alt="Product 3" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="gallery-photo animation fade-in-left" data-tag="books">
+              <div class="img-container">
+                <img src="./imgs/books-2.jpg" alt="Books 2" />
+                <button class="close-btn">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+              <div class="photo-info">
+                <h4>Books 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="gallery">
+          <ul class="gallery-sections animation fade-in-top">
+            <li>
+              <button class="active" data-category="all">All</button>
+            </li>
+            <li>
+              <button data-category="ecommerce">E-Commerce</button>
+            </li>
+            <li>
+              <button data-category="landing-page">Landing Page</button>
+            </li>
+            <li>
+              <button data-category="portfolio">Portfolio</button>
+            </li>
+          </ul>
+          <div class="gallery-photos">
+            <div class="shown-photo">
+              <img src="" alt="" />
+              <button class="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="landing-page"
+            >
+              <div class="img-container">
+                <img src="./imgs/landing-page-3.jpg" alt="Landing Page 3" />
+              </div>
+              <div class="photo-info">
+                <h4>Landing Page 3</h4>
+                <p>
+                  Clean and professional layout designed for optimal user
+                  experience.
+                </p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="ecommerce"
+            >
+              <div class="img-container">
+                <img src="./imgs/ecommerce-1.jpg" alt="E-Commerce 1" />
+              </div>
+              <div class="photo-info">
+                <h4>E-Commerce 1</h4>
+                <p>
+                  Modern e-commerce design with a user-friendly checkout
+                  process.
+                </p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="portfolio"
+            >
+              <div class="img-container">
+                <img src="./imgs/portfolio-3.jpg" alt="Portfolio 3" />
+              </div>
+              <div class="photo-info">
+                <h4>Portfolio 3</h4>
+                <p>
+                  Dynamic design perfect for displaying a variety of creative
+                  projects.
+                </p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="ecommerce"
+            >
+              <div class="img-container">
+                <img src="./imgs/ecommerce-3.jpg" alt="E-Commerce 3" />
+              </div>
+              <div class="photo-info">
+                <h4>E-Commerce 3</h4>
+                <p>
+                  Responsive e-commerce layout optimized for both desktop and
+                  mobile.
+                </p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="ecommerce"
+            >
+              <div class="img-container">
+                <img src="./imgs/ecommerce-2.jpg" alt="E-Commerce 2" />
+              </div>
+              <div class="photo-info">
+                <h4>E-Commerce 2</h4>
+                <p>
+                  Attractive product page with high-quality images and detailed
+                  descriptions.
+                </p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="landing-page"
+            >
+              <div class="img-container">
+                <img src="./imgs/landing-page-2.jpg" alt="Landing Page 2" />
+              </div>
+              <div class="photo-info">
+                <h4>Landing Page 2</h4>
+                <p>
+                  Bold and vibrant design perfect for capturing user attention.
+                </p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="portfolio"
+            >
+              <div class="img-container">
+                <img src="./imgs/portfolio-1.jpg" alt="Portfolio 1" />
+              </div>
+              <div class="photo-info">
+                <h4>Portfolio 1</h4>
+                <p>
+                  Showcase of creative designs highlighting diverse projects.
+                </p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="portfolio"
+            >
+              <div class="img-container">
+                <img src="./imgs/portfolio-2.jpg" alt="Portfolio 2" />
+              </div>
+              <div class="photo-info">
+                <h4>Portfolio 2</h4>
+                <p>Elegant portfolio layout showcasing high-quality work.</p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="gallery-photo animation fade-in-left"
+              data-tag="landing-page"
+            >
+              <div class="img-container">
+                <img src="./imgs/landing-page-1.jpg" alt="Landing Page 1" />
+              </div>
+              <div class="photo-info">
+                <h4>Landing Page 1</h4>
+                <p>
+                  Engaging landing page with clear call-to-action and minimal
+                  design.
+                </p>
+                <button class="show-btn">
+                  <i class="fa-solid fa-expand"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+    <!-- Start FAQs Section -->
+    <section id="faqs" class="section">
+      <div class="container">
+        <div class="section-header animation fade-in-top">
+          <h2>FAQs</h2>
+          <p>
+            Have questions? We’ve got answers! From service details and pricing
+            to support and SEO, find out everything you need to know.
+          </p>
+        </div>
+        <div class="questions animation fade-in-left">
+          <div class="questions-left">
+            <div class="drop-down">
+              <div class="question-heading">
+                <h4>How much does a website cost?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <p>
+                The cost of a website depends on several factors, including the
+                complexity of the design, the number of features, and the size
+                of the project. We offer customized quotes based on your
+                specific needs. Please contact us for a detailed estimate.
+              </p>
+            </div>
+            <div class="drop-down">
+              <div class="question-heading">
+                <h4>How long does it take to complete a website?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <p>
+                The timeline for completing a website can vary based on the
+                project's scope and requirements. On average, a basic website
+                can take 4-6 weeks, while more complex projects may take longer.
+                We’ll provide a timeline estimate once we understand your
+                project requirements.
+              </p>
+            </div>
+            <div class="drop-down">
+              <div class="question-heading">
+                <h4>Do you offer ongoing support and maintenance?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <p>
+                Yes, we offer ongoing support and maintenance services to ensure
+                your website remains up-to-date and secure. This includes
+                software updates, security checks, and technical support.
+                Contact us to learn more about our support packages.
+              </p>
+            </div>
+          </div>
+          <div class="questions-right">
+            <div class="drop-down">
+              <div class="question-heading">
+                <h4>Will my website be mobile-friendly?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <p>
+                Absolutely! All websites we design are responsive and optimized
+                for mobile devices. We ensure that your site looks and functions
+                perfectly on smartphones, tablets, and desktops.
+              </p>
+            </div>
+            <div class="drop-down">
+              <div class="question-heading">
+                <h4>Can I update my website content myself?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <p>
+                Yes, we build websites with user-friendly content management
+                systems (CMS) that allow you to easily update text, images, and
+                other content. We also provide training to help you manage your
+                website effectively.
+              </p>
+            </div>
+            <div class="drop-down">
+              <div class="question-heading">
+                <h4>Will you help with domain registration and hosting?</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+              <p>
+                Yes, we can assist with domain registration and hosting setup.
+                We can recommend reliable hosting providers and manage the setup
+                process for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End FAQs Section -->
+    <!-- Start Team Section -->
+    <section id="team" class="section">
+      <div class="container">
+        <div class="section-header animation fade-in-top">
+          <h2>Team</h2>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <div class="team-container animation fade-in-zoom">
+          <div class="team-member">
+            <img src="./imgs/team-1.jpg" alt="team image" />
+            <div class="member-info">
+              <div class="member-info-content">
+                <h5>Walter White</h5>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+            <div class="socail-card">
+              <i class="fa-solid fa-x"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <div class="team-member">
+            <img src="./imgs/team-2.jpg" alt="team image" />
+            <div class="member-info">
+              <div class="member-info-content">
+                <h5>Sarah Jhonson</h5>
+                <span>Product Manager</span>
+              </div>
+            </div>
+            <div class="socail-card">
+              <i class="fa-solid fa-x"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <div class="team-member">
+            <img src="./imgs/team-3.jpg" alt="team image" />
+            <div class="member-info">
+              <div class="member-info-content">
+                <h5>William Anderson</h5>
+                <span>CTO</span>
+              </div>
+            </div>
+            <div class="socail-card">
+              <i class="fa-solid fa-x"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <div class="team-member">
+            <img src="./imgs/team-4.jpg" alt="team image" />
+            <div class="member-info">
+              <div class="member-info-content">
+                <h5>Amanda Jepson</h5>
+                <span>Accountant</span>
+              </div>
+            </div>
+            <div class="socail-card">
+              <i class="fa-solid fa-x"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Team Section -->
+    <!-- Start Clients Section -->
+    <section id="clients" class="section">
+      <div class="container">
+        <div class="section-header animation fade-in-top">
+          <h2>Clients</h2>
+          <p>
+            Our Clients: Discover the diverse range of clients we've partnered
+            with and the successful web solutions we've delivered.
+          </p>
+        </div>
+        <div class="marquee animation fade-in-zoom">
+          <div class="marquee-content" data-animate="true">
+            <div class="client">
+              <img src="./imgs/client-1.png" alt="" />
+            </div>
+            <div class="client">
+              <img src="./imgs/client-2.png" alt="" />
+            </div>
+            <div class="client">
+              <img src="./imgs/client-3.png" alt="" />
+            </div>
+            <div class="client">
+              <img src="./imgs/client-4.png" alt="" />
+            </div>
+            <div class="client">
+              <img src="./imgs/client-5.png" alt="" />
+            </div>
+            <div class="client">
+              <img src="./imgs/client-6.png" alt="" />
+            </div>
+            <div class="client">
+              <img src="./imgs/client-7.png" alt="" />
+            </div>
+            <div class="client">
+              <img src="./imgs/client-8.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Clients Section -->
+    <!-- Start Contact-Us Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header animation fade-in-top">
+          <h2>Contact</h2>
+          <p>
+            Get in Touch: Ready to start your project or have a question?
+            Contact us today and let’s discuss how we can help you achieve your
+            goals.
+          </p>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info animation fade-in-right">
+            <div class="info-cards">
+              <div class="info-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="info-text">
+                  <h5>Address</h5>
+                  <p>789 Nile Street, Apartment 15, Cairo 11511, Egypt</p>
+                </div>
+              </div>
+              <div class="info-card">
+                <i class="fa-solid fa-phone"></i>
+                <div class="info-text">
+                  <h5>Call Us</h5>
+                  <p>+20 123 456 7890</p>
+                </div>
+              </div>
+              <div class="info-card">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="info-text">
+                  <h5>Email Us</h5>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="location-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d432.13814181035735!2d31.497219390519902!3d30.584784874525816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7f18d45354da9%3A0xf2b1bf117a97c679!2z2K_ZitmI2KfZhiDYudin2YUg2YXYrdin2YHYuNipINin2YTYtNix2YLZitip!5e1!3m2!1sen!2seg!4v1726427076430!5m2!1sen!2seg"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="contact-form animation fade-in-left">
+            <form>
+              <div class="input-container name-input">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" />
+              </div>
+              <div class="input-container email-input">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" />
+              </div>
+              <div class="input-container subject-input">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" />
+              </div>
+              <div class="input-container message-area">
+                <label for="message">Message</label>
+                <textarea id="message"></textarea>
+              </div>
+              <button class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact-Us Section -->
+    <!-- Start Subscribe Section -->
+    <section id="subscribe" class="section">
+      <div class="container">
+        <div class="header animation fade-in-top">
+          <h4>Join Our Newsletter</h4>
+          <p>
+            Subscribe to our newsletter and receive the latest news about our
+            products and services!
+          </p>
+        </div>
+        <div class="subscribe-form animation fade-in-zoom">
+          <form>
+            <input type="email" />
+            <button class="subscribe-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Subscribe Section -->
+    <!-- Start Footer Section -->
+    <footer class="section">
+      <div class="container">
+        <div class="footer animation fade-in-left">
+          <div class="info">
+            <h5>SiteLab</h5>
+            <div>
+              <p>789 Nile Street, Apartment 15</p>
+              <p>Cairo 11511, Egypt</p>
+            </div>
+            <div>
+              <p><span>Phone:</span> +20 123 456 7890</p>
+              <p><span>Email:</span> info@example.com</p>
+            </div>
+          </div>
+          <div class="links animation fade-in-right">
+            <div>
+              <h5>Useful Links</h5>
+              <ul class="useful-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms of service</a></li>
+              </ul>
+            </div>
+            <div>
+              <h5>Our Services</h5>
+              <ul class="Our-services">
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Product Management</a></li>
+                <li><a href="#">Marketing</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="follow-us animation fade-in-right">
+          <h5>Follow Us</h5>
+          <p>
+            <span>Stay Connected!</span> Follow us on social media to keep up
+            with our latest updates, projects, and news.
+          </p>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="copyright animation fade-in-zoom">
+          <p>
+            © Copyright <span>SiteLab</span> All Rights Reserved Designed by
+            <span><a href="https://github.com/Ziyad-Mohsen">Ziad</a></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Subscribe Section -->
+  </body>
+  <!-- JS files -->
+  <script src="js/main.js"></script>
+</html>
