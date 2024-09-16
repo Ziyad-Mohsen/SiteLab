@@ -455,8 +455,8 @@ section.hero {
   gap: 1.5rem;
 }
 
-.about .img-container,
-.about .text {
+#about .about-container .img-container,
+#about .about-container .text {
   flex-basis: 50%;
 }
 
